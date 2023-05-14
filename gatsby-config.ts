@@ -11,12 +11,13 @@ const config: GatsbyConfig = {
     siteTitle: `大分大学 メタバース研究会 Futuria`,
     siteTitleAlt: `大分大学 メタバース研究会 Futuria`,
     siteHeadline: `大分大学 メタバース研究会 Futuria`,
-    siteUrl: `https://github.io/oita-metaverse/futuria-website/`,
+    siteUrl: `https://oita-metaverse.github.io/website/`,
     siteDescription: `大分大学 メタバース研究会 Futuriaのサイトです`,
     siteImage: `/banner.jpg`,
     siteLanguage: `ja`,
     author: `@lekoarts_de`,
   },
+  pathPrefix: `/website`,
   trailingSlash: `never`,
   plugins: [
     {
